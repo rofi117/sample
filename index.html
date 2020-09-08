@@ -10,95 +10,103 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
-  <style>
-    body
+ <style>
+    .main
     {
-      background-color:#dbe3e5;
+      padding:0px 30px 0px 30px;
     }
-    .row1
+   .row1
     {
-      padding:5px 12px;
+      padding:5px 1px;
+      line-height:0.9;
     }
     .left
     {      
        float:left;
-       font-weight:550;
-       font-size:0.8125rem;
+       font-weight:bold;
+       font-size:0.43rem;
     }
     .right
     {
       color:green;
       float:right;
-      font-size:0.8125rem;
+      font-size:0.45rem;
     }
      .center
-    {      
-      display:block;
+    {     
+       
       text-align:center; 
-      font-size:1.8rem;  
+      font-size:1.2rem;  
+      font-weight:450;
+      ;
     }
      .center1
     {      
-      display:block;
+      margin-top:-8px;
+      font-size:0.46rem;
       text-align:center;  
-      color:#8d93ab;     
+      color:#8d93ab;
+        
     }
     .colm-1,.colm-2,.colm-3,.colm-4
     {
        background-color:white;
-       margin:0% 1%;
-       border-radius:10%;
-       padding:10px 13px;
+       margin:0% 0.9%;       
+       padding:10px 5px 0px 5px;
     } 
-     .row2
+    .row2
     {
-      padding:5px 8px;
+      padding:5px 1px;
+    }
+     .row2 h6 , .row2 p
+    {
+      font-size:0.5rem;
     }
     .graph 
-    {
-      border-radius:10px;
+    {      
       background-color:white;
-      padding:30px;
-      margin:5px 10px 5px 22px;
-    }
-    .graph img
-    {
-      width:750px;
-    }
-    .chart img
-    {
-      width:380px;
-    }
+      padding:10px;
+      margin:0px 10px 5px 5px;
+    }       
     .chart 
-    {
-     border-radius:10px;
+    {     
      background-color:white;
-     padding:30px;
-     margin:5px 22px 5px 5px;     
+     padding:10px;
+     margin:0px 5px 5px -2px;     
     }   
     .country 
-    {
-      border-radius:10px;
-      background-color:white;
-      padding:30px;
-      margin:5px 10px 5px 27px;
+    {      
+      padding:10px;
+      background-color:white;      
+      margin:0px 5px 5px 7px;
+      
     }
+    .country h6
+      {      
+       font-size:0.6rem;
+      
+      }
     .country img
     { 
-      margin-top:15px;
+      margin-top:10px;
     }
-    .carousel-feedback
+    .country table th
+    {      
+      font-size:0.5rem;
+    }    
+    .country table
     {
-      margin:5px 27px 5px 5px;
-      background-color:#ffc93c;
-      border-radius:10px;      
+      margin-top:20px;
+      font-size:0.5rem;
     }
-    .carousel-inner
+    .feedback
     {
-     padding:50px;
-    }  
-    
+      margin:0px 5px 5px 1px;
+      background-color:#ffc93c;  
+      color:#f1f3f8;
+      font-size:0.65rem;
+      padding:10px;        
+    }    
      .name
     {
       color:white;
@@ -109,228 +117,138 @@
       color:white;
       margin-top:-15px;      
     }
-
     .recent-activity
     {
-      background-color:white;
-      margin:5px 27px 5px 12px;
-      border-radius:10px;
-      padding:10px 15px;
+      background-color:white;            
+      padding:10px;
+      margin:5px 5px 5px 2px;
     }
-    .bottom
+    .recent-activity h6
     {
-      background-color:white;
-      margin:5px 27px 10px 25px;
-      border-radius:10px;
-      padding:10px 45px 10px 25px;
-    } 
-    .bottom table td
-    {
-     font-size:0.875rem;
-    }    
-    .companyname
-    {      
-     font-weight:600;
-     border-radius:50%;
-     padding:5px 8px;
-     font-size:0.8125rem;
-     width:20px;
-     height:20px;
-     text-align: center;
+      font-size:0.5rem;
     }
+    
     .image1
-    {
-     margin:10px 0px;
+    {     
      height:50px;
     } 
     .image1 img , .image2 img
     {
-      width:50px;
+      width:30px;
       float:left;
-      margin-right:10px;
+      margin-right:5px;
     }
     .image1 p , .image2 p 
     {
-     padding:10px;     
-     font-size:0.75rem;
-     line-height:1.2;
-     margin:1px 5px;
+     padding:5px;     
+     font-size:0.5rem;     
      color:#758184;
     } 
     .image2
-    {
-     margin:20px 0px;
+    {     
      height:50px;
     }    
     .image-name
     {
       font-weight:bold;
     }
-    
-    @media only screen and (max-width: 682px) {
-    .graph , .chart  
-    {      
-      margin:5px 32px 10px 22px;
-    }
-    .country
-    {
-      margin:10px 26px 10px 27px;
-    }
-    
-}
-    @media only screen and (max-width: 775px) {
-    .colm-1
-    {
-       margin:8px 5px 5px 25px;
-       padding:10px;
-    }
-    .colm-2,.colm-3,.colm-4
-    {
-       margin:8px 5px 5px 3px;
-       padding:10px;
-    }
-    .graph  
-    {      
-      margin:5px 10px 5px 22px;
-    }
-    .chart
-    {
-      margin:5px 15px 5px 2px;
-    } 
-    
-    .row1
-    {
-      padding:0px;
-    } 
-    .country 
-    {
-      margin:5px 10px 5px 27px;
-      padding:20px;
-    }
-    .country table
-    {
-      margin-top:50px;
-      font-size:0.9375;
-    }
-    .carousel-feedback
-    {
-      margin:5px 25px 5px 5px ;         
-    }
-    .recent-activity
-    {      
-      margin:5px 27px 5px 5px;  
-      font-size:0.8125rem;
-    }
-    .time
-    {      
-     display:none;      
-    }
-    .carousel-inner
-    {
-     padding:20px 30px;
-    }
-    
     .bottom
     {
-      font-size:0.8125rem; 
-    }
-}
-@media screen and (max-width:584px)
-{ 
-  body
-  {
-    margin:0px auto;
-  } 
-  .colm-1,.colm-2,.colm-3,.colm-4
+      background-color:white;
+      margin:5px 5px 10px 5px;
+      border-radius:10px;
+      padding:10px;
+    } 
+    .bottom table th
     {
-       margin:5px 5px 5px 25px;
-       padding:10px;
-    }
-   .graph  , .chart 
+     font-size:0.4rem;
+    }   
+    .bottom table td
+    {
+     font-size:0.4rem;
+    }    
+    .companyname
     {      
-      margin:3px 4px 5px 18px;
+     font-weight:600;
+     border-radius:50%;
+     padding:4px 7px;
+     font-size:0.45rem;
+     width:18px;
+     height:18px;
+     text-align: center;
     }
-
-  .country
-  {
-    margin:3px 8px 5px 25px;
-    padding:8px;
-  }
-  .country table
-  {
-   font-size:10px;
-  }
-  .carousel-feedback
-  {
-      margin:5px 7px 5px 25px ;         
-  }
-  .carousel-inner
-  {
-     padding:20px 40px;
-  }
-  .recent-activity
-   {      
-      margin:5px 7px 5px 25px;  
-   
-   }
-  .bottom
-  {
-   margin:5px 7px 5px 25px;
-   font-size:0.6875rem;
-  } 
-
-}
-
-
-  </style>
+     @media only screen and (max-width: 480px) 
+    {
+      .main
+     {
+      padding:0px 20px 0px 20px;
+     }
+        .center
+      {            
+      font-size:0.8rem;         
+      }    
+      
+      .country table th
+      {
+        
+        font-size:0.42rem;
+      }   
+      .country table
+      {
+        margin-top:30%;
+            font-size:0.42rem;
+      }
+    }
+ </style>
 </head>
-
-
 <body>
 
- <div class = "row row1">
-   <div class = "col-lg-2 col-md-2  colm-1">
-     <p class = "left">Users </p>
-     <span class = "right">+10%</span><br>
-     <p class = "center">36.1K</p>
-     <p class = "center1">172,458 Target users</p>
-   </div>
-   <div class = "col-lg-3 col-md-3 colm-2">
-     <span class = "left">Campaign Leads</span>
-     <span class = "right">+12.5%</span><br>
-     <p class = "center">168,856</p>
-     <p class = "center1">472,458 Targeted</p>
-   </div>
-   <div class = "col-lg-3 col-md-3  colm-3">
-     <span class = "left">New Contacts</span>
-     <span class = "right text-warning">-2.8%</span><br>
-     <p class = "center">73</p>
-     <p class = "center1">100 Targeted</p>
-   </div>
-   <div class = "col-lg-3 col-md-3  colm-4">
-     <span class = "left">Win/Loss Ratio</span>
-     <span class = "right text-danger">-75%</span><br>
-     <p class = "center">48:65</p>
-     <p class = "center1">4232 Targeted</p>
-   </div>
+ <div class="row main">
+   <div class="col-md-5 mx-auto bg-light">
+     <div class = "row row1  ">
+      <div class = "col-lg col-md col-sm col colm-1">
+        <p class = "left">Users </p>
+        <span class = "right">+10%</span><br>
+        <p class = "center">36.1K</p>
+        <p class = "center1">172,458 Target users</p>
+       </div>
+      <div class = "col-lg-3 col-md col-sm col colm-2">
+        <span class = "left">Campaign Leads</span>
+        <span class = "right">+12.5%</span><br>
+        <p class = "center">168,856</p>
+        <p class = "center1">472,458 Targeted</p>
+      </div>
+     <div class = "col-lg-3 col-md col-sm col colm-3">
+        <span class = "left">New Contacts</span>
+        <span class = "right text-warning">-2.8%</span><br>
+        <p class = "center">73</p>
+        <p class = "center1">100 Targeted</p>
+      </div>
+      <div class = "col-lg-3 col-md col-sm col colm-4">
+        <span class = "left">Win/Loss Ratio</span>
+        <span class = "right text-danger">-75%</span><br>
+        <p class = "center">48:65</p>
+        <p class = "center1">4232 Targeted</p>
+      </div>
  </div>
- <div class = "row row2">
-  <div class = "col-md-7  graph">
+ 
+  <div class = "row row2">
+  <div class = "col-md-7 col-sm-7 col-6  graph">
    <h6>Monthly Adwords views</h6>
    <p>ertyuub tyyuioo rtyuui weertyy qweett wertty tyuiop ftyyyujj</p>    
    <img class = "img-fluid" src = "img/graph1.png">
   </div>
-  <div class = "col chart">
+  <div class = "col-md col-sm col chart">
     <h6>Stock price Movement</h6>
     <p>ertyuub tyyuioo rtyuui weertyy qweett wertty tyuiop ftyyyujj</p>
     <img class = "img-fluid" src = "img/chart1.png">
   </div>
  </div>
- <div class = "row row3">
-   <div class = "col-lg-7 col-md-7 country"> 
+   <div class = "row row3">
+   <div class = "col-lg-7 col-md-7 col-sm-7 col-6 country"> 
     <h6>Country Stats</h6>
     <img class = "img-fluid" src = "img/country.png">
-    <table class="table">
+    <table class="table table-sm">
     <thead>
       <tr>
         <th>Country</th>
@@ -374,91 +292,38 @@
    </div>
    <div class = "col">
     <div class = "row">
-     <div class = "col carousel-feedback">
-      <div id="feedback" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#feedback" data-slide-to="0" class="active"></li>
-    <li data-target="#feedback" data-slide-to="1"></li>
-    <li data-target="#feedback" data-slide-to="2"></li>
-  </ul>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+     <div class = "col col-sm feedback">
       <p>Very eacy to use.Thanks to design,we.ve just launched out 5th website! Thankyou for making it painless,pleasent and most of all hassle free! Just what I was looking for.</p>
       <p class ="name">ZC &nbsp &nbsp Zuck Chan</p>
       <p class ="role">&nbsp &nbsp &nbsp &nbsp Design Lead,Hencework.</p>
     </div>
-    <div class="carousel-item">
-      <p>Very eacy to use.Thanks to design,we.ve just launched out 5th website! Thankyou for making it painless,pleasent and most of all hassle free! Just what I was looking for.</p>
-      <p class ="name">ZC &nbsp &nbsp Zuck Chan</p>
-      <p class ="role">&nbsp &nbsp &nbsp &nbsp Design Lead,Hencework.</p>
-    </div>
-    <div class="carousel-item">
-     <p>Very eacy to use.Thanks to design,we.ve just launched out 5th website! Thankyou for making it painless,pleasent and most of all hassle free! Just what I was looking for.</p>
-      <p class ="name">ZC &nbsp &nbsp Zuck Chan</p>
-      <p class ="role">&nbsp &nbsp &nbsp &nbsp Design Lead,Hencework.</p>
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#feedback" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#feedback" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-
-</div>
-     </div>
-    </div>
-     <div class = "row">
-     <div class = "col recent-activity">
+   </div>
+ 
+    <div class = "row">
+     <div class = "col col-sm recent-activity">
       <h6>Recent Activity</h6>
       <div class = "image1">
        <img class = "img-fluid" src = "img/blog1.png"> 
-       <p><span class = "image-name text-dark">Laura Thompson</span> joined josh groben team</p>
-       
-       <p class ="time">3 hours ago</p>
-       <hr>
+       <p><span class = "image-name text-dark">Laura Thompson</span> joined josh groben team <br>6 hours ago</p>              
       </div>
       <div class = "image2">
        <img class = "img-fluid" src = "img/blog2.png"> 
-       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos</p>
-       <p class ="time">6 hours ago</p>
-       <hr>
+       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos <br>6 hours ago</p>           
       </div>
       <div class = "image2">
        <img class = "img-fluid" src = "img/blog3.png"> 
-       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos</p>
-       <p class ="time">6 hours ago</p>
-       <hr>
-      </div>
-      <div class = "image2">
-       <img class = "img-fluid" src = "img/blog1.png"> 
-       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos</p>
-       <p class ="time">6 hours ago</p>
-       <hr>
-      </div>
-      <div class = "image2">
-       <img class = "img-fluid" src = "img/blog2.png"> 
-       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos</p>
-       <p class ="time">6 hours ago</p>
-       <hr>
+       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos<br>6 hours ago</p>         
       </div>
       <div class = "image2">
        <img class = "img-fluid" src = "img/blog3.png"> 
-       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos</p>
-       <p class ="time">6 hours ago</p>
+       <p><span class = "image-name text-dark">Meayme Fletcher</span> liked Photos<br>6 hours ago</p>         
+      </div>
       
       </div>
      </div>
+     </div>
     </div>
- </div>
-</div>
-<div class = "row ">
+ <div class = "row ">
  <div class = "col bottom " style = "overflow-x:auto" >
    <table class="table">
     <thead>
@@ -518,5 +383,8 @@
  </div> 
 </div>
 
+
+</div>
+</div>
 </body>
 </html>
